@@ -12,8 +12,86 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  flex-direction: column;
 }
+.header__img {
+  padding: 20px 0px 20px 0px;
+  width: 150px;
+}
+.header__location {
+  align-items: center;
+  background: #eaeaea;
+  box-shadow: -2px 19px 21px -8px rgba(0, 0, 0, 0.2) inset;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: center;
+  width: 100%;
+}
+.header__details {
+  margin: 15px;
+}
+
+.explore-location {
+  background-color: rgba(241, 241, 241, 0.986);
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 75px;
+  text-align: center;
+}
+.explore-location__title {
+  font-size: 18px;
+  padding: 30px 75px 20px;
+}
+.explore-location__subtitle {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 55px;
+  padding: 0 40px;
+}
+.explore-location__button {
+  background-color: #ff79da;
+  border-radius: 50px;
+  box-shadow: 1px 16px 43px -2px rgba(0, 0, 0, 0.15);
+  color: white;
+  font-size: 16px;
+  padding: 18px 30px;
+}
+
+.section-fonctionnalities .minicard {
+  background-color: white;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 20px;
+  box-shadow: 0 5px 20px -2px rgba(0, 0, 0, 0.15);
+}
+.section-fonctionnalities .minicard__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70px;
+}
+.section-fonctionnalities .minicard__content .circle {
+  background-color: #9356dc;
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+  margin: 0 10px 0 -12px;
+  padding: 5px 8px;
+}
+.section-fonctionnalities .minicard__content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.section-fonctionnalities .minicard__content .miniicon {
+  width: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #818181;
+}
+
 footer {
   background-color: #333232;
   padding: 8px 0px 20px 10px;
