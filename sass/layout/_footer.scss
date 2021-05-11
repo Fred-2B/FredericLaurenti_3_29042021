@@ -1,0 +1,31 @@
+footer {
+  background-color: rgb(51, 50, 50);
+  padding: 8px 0px 20px 10px;
+
+  h3 {
+    font-family: 'Shrikhand';
+    margin: 8px;
+    color: white;
+    font-weight: normal;
+  }
+
+  li {
+    font-family: $font-content;
+    list-style: none;
+     margin: 8px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  i {
+    font-size: 13px;
+    margin-right: 8px;
+  }
+
+  ul {
+    padding: 10px 0;
+  }
+}
