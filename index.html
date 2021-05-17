@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- POLICE -->-->
+    <title>Ohmyfood</title>
+    <!-- POLICE -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,6 +19,7 @@
     />
 
     <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
   </head>
 
   <body>
@@ -41,10 +42,8 @@
             Découvrez des restaurants d'exception, séléctionnés par nos soins.
           </p>
         </div>
-        <a
-          class="explore-location__button"
-          href="#section2"
-        >
+        <a aria-label="Explorer nos restaurants"
+          class="explore-location__button" href="#section2">
           Explorer nos restaurants
         </a>
       </div>
@@ -87,85 +86,78 @@
 
     <!-- RESTAURANTS -->
 
-    <section class="section section--restaurants">
-      <h2 class="section__title">Restaurants</h2>
-
-      <div class="transform">
-        <div class="resto">
-          <a href="Lapalettedugout.html">
-            <div class="resto image">
-              <img
-                src="images/restaurants/la_palette_du_gout.jpg"
-                alt="image plat du restaurant"
-              />
+    <section class="section-two" id="section2">
+      <h3>Restaurants</h3>
+    <div class="section-restaurants">
+      <a href="pages-restos/lapalettedugout.html">
+        <div class="restaurant-card">
+          <div class="novelties-flag">
+            <p>Nouveau</p>
+          </div>
+          <img src="images/restaurants/la_palette_du_gout.jpg" alt="image plat du restaurant"
+               title="La palette du goût, Gastronomie à Paris">
+          <div class="content">
+            <div class="card-content">
+              <h4 class="restaurant-name">La palette du goût</h4>
+                <span class="restaurant-location">Ménilmontant</span>
             </div>
-            <div class="resto">
-              <p class="new">Nouveau</p>
-              <h3 class="resto__title">La palette du goût</h3>
-              <p class="subtitle">Ménilmontant</p>
-              <div class="heart">
-                <i class="far fa-heart" aria-hidden="true"></i>
-              </div>
+            <div class="heart">
+              <i class="far fa-heart" aria-hidden="true"></i>
             </div>
-          </a>
+          </div>
         </div>
-
-        <div class="resto">
-          <a href="Lanoteenchantee.html">
-            <div class="resto image">
-              <img
-                src="images/restaurants/la_note_enchantee.jpg"
-                alt="image plat du restaurant"
-              />
+      </a>
+      <a href="lanoteenchantee.html">
+        <div class="restaurant-card">
+          <div class="novelties-flag">
+            <p>Nouveau</p>
+          </div>
+          <img src="images/restaurants/la_note_enchantee.jpg" alt="image plat du restaurant"
+               title="La note enchantée, restaurant gastronomique méditerranéen à Paris"
+          >
+          <div class="content">
+            <div class="card-content">
+              <h4 class="restaurant-name">La note enchantée</h4>
+              <span class="restaurant-location">Charonne</span>
             </div>
-            <div class="resto">
-              <p class="new">Nouveau</p>
-              <h3 class="resto__title">La note enchantée</h3>
-              <p class="subtitle">Charonne</p>
-              <div class="heart">
-                <i class="far fa-heart" aria-hidden="true"></i>
-              </div>
+            <div class="heart">
+              <i class="far fa-heart" aria-hidden="true"></i>
             </div>
-          </a>
+          </div>
         </div>
-
-        <div class="resto">
-          <a href="alafrancaise.html">
-            <div class="resto image">
-              <img
-                src="images/restaurants/a_la_francaise.jpg"
-                alt="image plat du restaurant"
-              />
+      </a>
+      <a href="alafrancaise.html">
+        <div class="restaurant-card">
+          <img src="images/restaurants/a_la_francaise.jpg" alt="image plat du restaurant"
+               title="Restaurant gastronomique à la française">
+          <div class="content">
+            <div class="card-content">
+              <h4 class="restaurant-name">À la française</h4>
+              <span class="restaurant-location">Cité Rouge</span>
             </div>
-            <div class="resto">
-              <h3 class="resto__title">À la française</h3>
-              <p class="subtitle">Cité Rouge</p>
-              <div class="heart">
-                <i class="far fa-heart" aria-hidden="true"></i>
-              </div>
+            <div class="heart">
+              <i class="far fa-heart" aria-hidden="true"></i>
             </div>
-          </a>
+          </div>
         </div>
-
-        <div class="resto">
-          <a href="ledelicedessens.html">
-            <div class="resto image">
-              <img
-                src="images/restaurants/le_delice_des_sens.jpg"
-                alt="image plat du restaurant"
-              />
+      </a>
+      <a href="ledelicedessens.html">
+        <div class="restaurant-card">
+          <img src="images/restaurants/le_delice_des_sens.jpg" alt="image plat du restaurant"
+               title="Restaurant le délice des sens à Paris">
+          <div class="content">
+            <div class="card-content">
+              <h4 class="restaurant-name">Le délice des sens</h4>
+              <span class="restaurant-location">Folie-Méricourt</span>
             </div>
-            <div class="resto">
-              <h3 class="resto__title">Le délice des sens</h3>
-              <p class="subtitle">Folie-Méricourt</p>
-              <div class="heart">
-                <i class="far fa-heart" aria-hidden="true"></i>
-              </div>
+            <div class="heart">
+              <i class="far fa-heart" aria-hidden="true"></i>
             </div>
-          </a>
+          </div>
         </div>
-      </div>
-    </section>
+      </a>
+    </div>
+  </section>
 
     <!-- FOOTER -->
 
