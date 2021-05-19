@@ -10,6 +10,13 @@
         padding: 20px 0;
     }
 
+    &__back-home {
+        position: absolute;
+        left: 15px;
+        top: 20px;
+        font-size: x-large;
+    }
+
     &__location {
         align-items: center;
         background: rgb(234, 234, 234);
@@ -27,9 +34,11 @@
     }
 }
 
+
+
 .explore-location {
 
-    background-color: rgba(241, 241, 241, 0.986);
+    background-color: $silver;
     font-family: $font-content;
     padding-bottom: 75px;
     text-align: center;

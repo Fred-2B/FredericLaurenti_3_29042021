@@ -1,15 +1,16 @@
-.section-one {
-    h3 {
-        margin: 55px 0 30px 15px;
-        font-size: 25px;
-    }
-}
-
-
+//SECTION ONE
+    
 .section-fonctionnalities {
 
+    @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-bottom: 20px;
+        padding: 10px 20px;
+      }
+
     .minicard {
-        background-color: $white;
+        background-color: $silver;
         border-radius: 25px;
         font-family: $font-content;
         margin: 25px 20px;
@@ -23,6 +24,12 @@
             justify-content: flex-start;
             align-items: center;
             height: 70px;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+                background-color: $secondaryState!important;
+                border-radius: 25px;
+            }
 
             .circle {
                 background-color: $colour-primary;
@@ -45,7 +52,7 @@
                 font-size: 20px;
                 text-align: center;
                 color: $gray;
-                }
+            }
         }
 
         .secondary {
@@ -57,4 +64,75 @@
             }
           }
     }
+}
+
+//SECTION TWO
+
+.section-two {
+    margin-top: 60px;
+    padding: 10px 0 5px 0;
+    background-color: $silver;
+}
+
+.section-restaurants {
+
+    @media (min-width:992px) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+    padding-bottom: 60px;
+
+    .restaurant-card {
+        background-color: $white;
+        border-radius: 15px;
+        margin: 18px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0px 26px 58px -22px rgba(0,0,0,0.25);
+
+        img {
+            height: 220px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .content {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 5px;
+        }
+
+        .card-content {
+            margin: 10px 0 15px 10px;
+            width: 150px;
+        
+            h4 {
+                margin: 0 0 4px 0;
+                font-family: $font-content;
+                font-weight: 900;
+            }
+
+            .restaurant-location {
+                font-family: $font-content;
+            }
+        }
+    }
+
+        .novelties-flag {
+            background-color: $secondaryGreen;
+            color: $primaryGreen;
+            font-size: 13px;
+            font-weight: 500;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+
+            p {
+                font-family: $font-content;
+                margin: 5px 10px;
+            }
+        }
 }

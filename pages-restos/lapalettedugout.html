@@ -7,10 +7,7 @@
     <title>La palette du goût</title>
     <meta name="description" content="Réservez vos menus à Paris !">
     <!-- POLICE -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Shrikhand&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
@@ -23,11 +20,12 @@
 
     <!-- HEADER-->
 
-    <header class="header-title">
-        <a href="../index.html" class="back-home"><i class="fas fa-arrow-left"></i></a>
-        <img src="../images/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
+    <header class="header__title">
+        <a href="../index.html" class="header__back-home"><i class="fas fa-arrow-left"></i></a>
+        <img class="header__img" src="../images/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
     </header>
-    <img src="../images/restaurants/la_palette_du_gout.jpg" alt="image du plat" class="banniere-img">
+
+        <img src="../images/restaurants/la_palette_du_gout.jpg" alt="image du plat" class="banniere-img">
 
     <!-- MAIN-->
 
@@ -41,7 +39,7 @@
 
         <div class="restaurants-menus">
             <div class="menus">
-                <h4 class"menus__title">Entrées</h4>
+                <h4 class="menus__title">Entrées</h4>
 
                 <section class="menu-content">
                     <div class="menu-content__header">
@@ -56,7 +54,7 @@
                         <h5 class="menu-content__title">Foie gras de canard mi-cuit</h5>
                         <p class="menu-content__description">Et ses copeaux de truffe noire</p>    
                     </div>
-                    <div class="menu-content__price">35€€</div>
+                    <div class="menu-content__price">35€</div>
                 </section>
 
                 <section class="menu-content">
@@ -134,7 +132,7 @@
     <!-- FOOTER -->
 
     <footer>
-        <h3>ohmyfood</h3>
+        <h4>ohmyfood</h4>
         <ul>
             <li>
             <a href=""><i class="fas fa-utensils"></i>Proposer un restaurant</a>

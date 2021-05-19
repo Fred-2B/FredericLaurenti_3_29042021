@@ -1,0 +1,98 @@
+.banniere-img {
+  margin-bottom: -30px;
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.menu-header {
+  align-items: center;
+  display: flex;
+  font-weight: normal;
+  justify-content: space-between;
+  padding: 0 20px;
+
+    h2 {
+      font-family: $font-title;
+      margin: 35px 0;
+    }
+}
+
+.sections-restaurants-menu {
+    background-color: $silver;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+    padding: 0 0 60px;
+
+    @media screen and (min-width: 992px) {
+    margin: -10px 50px 0px;
+    }
+}
+
+.restaurants-menus {
+
+}
+
+.menus {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 10px 15px;
+
+  &__title {
+    font-family: $font-content;
+    padding: 0 0 10px 5px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: normal;
+    
+    &::after {
+      background-color: $colour-tertiare;
+      content: "";
+      height: 3px;
+      width: 40px;
+      left: 6px;
+      bottom: 0;
+      position: absolute;
+
+    }
+  }
+}
+
+.menu-content {
+  background-color: $white;
+  border-radius: 15px;
+  display: flex;
+  margin: 18px 0 20px;
+  padding: 15px 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.30);
+
+    &__header {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    &__title {
+      font-family: $font-content;
+      font-size: 18px;
+      font-weight: 900;
+      margin: 0;
+      padding-bottom: 5px;
+    }
+
+    &__description {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    &__price {
+      display: flex;
+      align-items: flex-end;
+      font-weight: 700;
+      padding-right: 15px;
+      font-family: $font-content;
+    }
+}
