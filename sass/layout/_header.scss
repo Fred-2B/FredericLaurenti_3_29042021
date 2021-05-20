@@ -18,15 +18,16 @@
     }
 
     &__location {
+        display: flex;
         align-items: center;
+        justify-content: center;
         background: rgb(234, 234, 234);
         box-shadow: -2px 19px 21px -8px rgba(0,0,0,0.15) inset;
-        display: flex;
         font-family: $font-content;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 700;
-        justify-content: center;
         width: 100%;
+        padding: 4px 0;
     }
 
     &__details {
@@ -66,7 +67,6 @@
 
         &:hover {
             box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-            transition: box-shadow 0.5s ease-in-out;
         }
     }
   }
