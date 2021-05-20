@@ -23,8 +23,9 @@
 // HEART
 
 .heart {
-    position: flex;
-    font-size: 25px;
+    position: absolute;
+    right: 30px;
+    font-size: 1.5rem;
     cursor: pointer;
     color: $gray;
 

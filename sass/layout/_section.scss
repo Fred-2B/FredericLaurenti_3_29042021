@@ -1,13 +1,20 @@
 //SECTION ONE
-    
+.section-one {
+
+    @media screen and (min-width: 768px) {
+        h3 {
+            padding: 0 15px;
+        }
+    }
+}
+
 .section-fonctionnalities {
 
     @media screen and (min-width: 768px) {
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        margin-bottom: 20px;
-        padding: 10px 20px;
-      }
+        padding: 0 20px;
+    }
 
     .minicard {
         background-color: $silver;
@@ -21,7 +28,6 @@
         &__content {
             display: flex;
             flex-direction: row;
-            justify-content: flex-start;
             align-items: center;
             height: 70px;
             transition: all 0.4s ease-in-out;
@@ -76,7 +82,12 @@
 
 .section-restaurants {
 
-    @media (min-width:992px) {
+    @media screen and (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    @media (min-width:1280px) {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
       }
@@ -122,17 +133,22 @@
     }
 
         .novelties-flag {
-            background-color: $secondaryGreen;
-            color: $primaryGreen;
-            font-size: 13px;
-            font-weight: 500;
+            background-color: $colour-tertiare;
+            border-radius: 3px;
+            width: 95px;
+            height: 35px;
             position: absolute;
-            right: 10px;
-            top: 10px;
+            right: 15px;
+            top: 15px;
 
             p {
                 font-family: $font-content;
                 margin: 5px 10px;
+                line-height: 28px;
+                font-size: 1rem;
+                font-weight: 700;
+                text-align: center;
+                color: $primaryGreen;
             }
         }
 }
