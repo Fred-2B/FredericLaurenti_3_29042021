@@ -22,7 +22,7 @@
         align-items: center;
         justify-content: center;
         background: rgb(234, 234, 234);
-        box-shadow: -2px 19px 21px -8px rgba(0,0,0,0.15) inset;
+        box-shadow:  inset 2px 19px 11px -15px rgba(0,0,0,0.25);
         font-family: $font-content;
         font-size: 18px;
         font-weight: 700;
@@ -35,13 +35,11 @@
     }
 }
 
-
-
 .explore-location {
 
     background-color: $silver;
     font-family: $font-content;
-    padding-bottom: 75px;
+    padding-bottom: 80px;
     text-align: center;
   
     &__title {
@@ -51,9 +49,10 @@
   
     &__subtitle {
         font-size: 18px;
-        font-weight: 100;
+        font-weight: 400;
         margin-bottom: 55px;
         padding: 0 40px;
+        color: $gray;
     }
     
     &__button {
