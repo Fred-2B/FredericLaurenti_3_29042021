@@ -177,4 +177,17 @@
                 font-weight: 400;
                 }
         }
+
+        .heart {
+            position: absolute;
+            right: 30px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: $gray;
+            
+            &:hover {
+                font-size: 1.7rem;
+                color: $colour-primary;
+            }
+        }
 }

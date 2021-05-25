@@ -16,27 +16,12 @@
 
     &:hover {
         box-shadow: rgb(38, 57, 77, 0.6) 0px 20px 30px -10px;
-        transition: box-shadow 0.5s ease-in-out;
     }
 }
 
 // HEART
 
-.heart {
-    position: absolute;
-    right: 30px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: $gray;
 
-    &:hover {
-        animation: fill 0.5s ease-in-out;
-        background:linear-gradient(to bottom, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-        background:-webkit-linear-gradient(to bottom, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color:transparent;
-    }
-}
 
 
 
