@@ -13,11 +13,18 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="public/css/style.css" />
     <link rel="shortcut icon" type="image/png" href="images/top-chef.svg" />
   </head>
 
   <body>
+
+    <!-- LOADER -->
+
+    <div class="preloader">
+  		<h4 class="title">ohmyfood</h4>
+        <div class="loader"></div>
+    </div>
 
     <!-- HEADER -->
 
@@ -50,7 +57,7 @@
     <section class="section-one">
       <h3>Fonctionnement</h3>
       <div class="section-fonctionnalities" id="section1">
-        <div class="minicard">
+        <div class="minicard fade-2">
           <div class="minicard__content">
             <span class="circle">1</span>
             <div class="miniicon">
@@ -59,7 +66,7 @@
             <p>Choisissez un restaurant</p>
           </div>
         </div>
-        <div class="minicard">
+        <div class="minicard fade-3">
           <div class="minicard__content">
               <span class="circle">2</span>
               <div class="miniicon">
@@ -68,8 +75,8 @@
               <p>Composez votre menu</p>
             </div>
         </div>
-        <div class="minicard">
-            <div class="minicard__content secondary">
+        <div class="minicard fade-4">
+            <div class="minicard__content">
               <span class="circle">3</span>
               <div class="miniicon">
                 <i class="fas fa-store"></i>
@@ -86,7 +93,7 @@
       <h3>Restaurants</h3>
     <div class="section-restaurants">
       <a href="pages-restos/lapalettedugout.html">
-        <div class="restaurant-card">
+        <div class="restaurant-card fade-6">
           <div class="novelties-flag">
             <p>Nouveau</p>
           </div>
@@ -98,12 +105,13 @@
             </div>
             <div class="heart">
               <i class="far fa-heart" aria-hidden="true"></i>
+              <i class="fas fa-heart fa-heart-animated"></i>
             </div>
           </div>
         </div>
       </a>
       <a href="pages-restos/lanoteenchantee.html">
-        <div class="restaurant-card">
+        <div class="restaurant-card fade-7">
           <div class="novelties-flag">
             <p>Nouveau</p>
           </div>
@@ -115,12 +123,13 @@
             </div>
             <div class="heart">
               <i class="far fa-heart" aria-hidden="true"></i>
+              <i class="fas fa-heart fa-heart-animated"></i>
             </div>
           </div>
         </div>
       </a>
       <a href="pages-restos/alafrancaise.html">
-        <div class="restaurant-card">
+        <div class="restaurant-card fade-8">
           <img src="images/restaurants/a_la_francaise.jpg" alt="image plat du restaurant" title="Restaurant gastronomique à la française">
           <div class="content">
             <div class="card-content">
@@ -129,12 +138,13 @@
             </div>
             <div class="heart">
               <i class="far fa-heart" aria-hidden="true"></i>
+              <i class="fas fa-heart fa-heart-animated"></i>
             </div>
           </div>
         </div>
       </a>
       <a href="pages-restos/ledelicedessens.html">
-        <div class="restaurant-card">
+        <div class="restaurant-card fade-9">
           <img src="images/restaurants/le_delice_des_sens.jpg" alt="image plat du restaurant" title="Restaurant le délice des sens">
           <div class="content">
             <div class="card-content">
@@ -143,6 +153,7 @@
             </div>
             <div class="heart">
               <i class="far fa-heart" aria-hidden="true"></i>
+              <i class="fas fa-heart fa-heart-animated"></i>
             </div>
           </div>
         </div>
@@ -163,7 +174,7 @@
           <a href=""><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
         </li>
         <li><a href="">Mentions légales</a></li>
-        <li><a href="https://www.emploi-store.fr/portail/services/openclassrooms " target="_blank">Contact</a></li>
+        <li><a href="mailto:san@antonio.net" target="_blank">Contact</a></li>
       </ul>
     </footer>
   </body>
