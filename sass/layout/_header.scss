@@ -1,3 +1,5 @@
+//HEADER PAGE ACCUEIL   
+
 .header {
     &__title {
         align-items: center;
@@ -8,13 +10,6 @@
 
     &__img {
         padding: 20px 0;
-    }
-
-    &__back-home {
-        left: 30px;
-        position: absolute;
-        top: 25px;
-        font-size: x-large;
     }
 
     &__location {
@@ -68,4 +63,34 @@
             box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
         }
     }
+  }
+
+  //HEADER RETOS-PAGES
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 70px;
+    margin: 0 auto;
+    
+    img {
+      height: 34px;
+      padding: 20px 0;
+    }
+  
+    .back-home {
+      position: absolute;
+      left: 25px;
+      top: 25px;
+      font-size: x-large;
+    }
+}
+  
+  .banniere-img {
+    margin-bottom: -30px;
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
   }

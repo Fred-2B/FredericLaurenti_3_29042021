@@ -1,11 +1,19 @@
 {
-  "name": "ohmyfood",
+  "name": "p3_fredericlaurenti_ohmyfood",
   "version": "1.0.0",
-  "description": "",
+  "description": "projet_3: ohmyfood",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fred-2B/FredericLaurenti_3_29042021.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fred-2B/FredericLaurenti_3_29042021/issues"
+  },
+  "homepage": "https://github.com/Fred-2B/FredericLaurenti_3_29042021/#readme"
 }

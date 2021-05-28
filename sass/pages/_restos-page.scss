@@ -9,7 +9,6 @@
   align-items: center;
   display: flex;
   font-weight: normal;
-  justify-content: space-between;
   padding: 0 20px;
 
     h2 {
@@ -26,13 +25,17 @@
 
     @media screen and (min-width: 992px) {
     margin: -10px 40px 0;
+
+      h2 {
+        margin: 35px 18px;
+      }
     }
 }
 
 .restaurants-menus {
+  display: grid;
 
   @media screen and (min-width: 992px) {
-    display: grid;
     grid-template-columns: repeat(3,1fr);
     margin: 0 20px;
 
@@ -109,21 +112,21 @@
       display: flex;
       align-items: flex-end;
       font-weight: 700;
-      padding: 0 10px 0 4px;
+      padding: 0 30px 0 5px;
       font-family: $font-content;
     }
 
-    &__confirmation {
-      align-items: center;
-      background-color: $colour-tertiare;
+    &__check {
       display: flex;
+      align-items: center;
       justify-content: center;
+      background-color: $colour-tertiare;
       margin: -15px -118px -16px 16px;
       transition-duration: .5s;
-      width: 104px;
+      width: 80px;
     }
 
-    &:hover &__confirmation {
+    &:hover &__check {
       margin-right: -10px;
     }
 
@@ -134,17 +137,14 @@
       background-color: $white;
       border-radius: 100px;
       color: $colour-tertiare;
-      height: 25px;
+      width: 26px;
+      height: 26px;
       transform: rotate(180deg);
       transition-duration: .6s;
-      width: 25px;
+      
     }
   
       &:hover &__check-icon {
           transform: rotate(0);
-      }
-  
-      &__icon {
-          color: $colour-tertiare;
       }
 }
