@@ -85,6 +85,11 @@
       left: 25px;
       top: 25px;
       font-size: x-large;
+
+        &:hover {
+            color: $colour-primary;
+            transform: scale(1.1);
+        }
     }
 }
   
