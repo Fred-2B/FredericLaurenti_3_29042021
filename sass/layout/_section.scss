@@ -169,11 +169,11 @@
                 text-align: center;
                 color: $primaryGreen;
                 transition: transform 0.25s ease-out;
-            }
-
-                p:hover {
+            
+                &:hover {
                 transform: scale(1.3);
                 font-weight: 400;
                 }
+            }
         }
 }
