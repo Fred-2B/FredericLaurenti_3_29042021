@@ -1,6 +1,6 @@
 .banniere-img {
   margin-bottom: -30px;
-  max-height: 300px;
+  max-height: 400px;
   object-fit: cover;
   width: 100%;
 }
@@ -24,10 +24,13 @@
     padding: 0 0 60px;
 
     @media screen and (min-width: 992px) {
-    margin: -10px 40px 0;
+    margin: -10px 80px 0;
 
       h2 {
         margin: 35px 18px;
+      }
+      .heart  {
+        right: 80px;
       }
     }
 }
@@ -79,7 +82,7 @@
   box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.30);
   animation-duration: 1s;
   animation-name: retard;
-  animation-fill-mode: forwards;
+  animation-fill-mode: both;
   transform: scale(0);
   overflow: hidden;
   
