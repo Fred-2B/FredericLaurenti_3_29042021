@@ -64,9 +64,9 @@
     display: flex;
     justify-content: center;
     margin: 30px auto 0;
-    background: linear-gradient($colour-secondary, $colour-primary);
+    @include btn-gradient;
+    @include box-shadow;
     border-radius: 50px;
-    box-shadow:  0 4px 12px rgba(0, 0, 0, 0.3);
     color: $white;
     font-size: 20px;
     padding: 15px;
@@ -74,8 +74,6 @@
     transition: all 0.5s ease-in-out;
 
     &:hover {
-        box-shadow: rgb(38, 57, 77, 0.6) 0 20px 30px -10px;
-        background-blend-mode: lighten;
-        background-color: lighten(#9356dc, 10%);
+        @include btn-hover;
     }
 }

@@ -4,9 +4,10 @@
   "description": "projet_3: ohmyfood",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixer"
   },
   "author": "",
-  "license": "ISC"
-  
+  "license": "ISC",
+  "browserslist": "last 4 versions"
 }
