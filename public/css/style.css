@@ -312,14 +312,18 @@ body p {
   .section-fonctionnalities {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 20px;
+  }
+}
+@media (min-width: 1280px) {
+  .section-fonctionnalities {
+    margin: 0 20px;
   }
 }
 .section-fonctionnalities .minicard {
   background-color: #f6f6f6;
   border-radius: 25px;
   font-family: "Roboto", sans-serif;
-  margin: 25px 30px;
+  margin: 25px;
   box-shadow: 0 2px 19px -2px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   animation-duration: 1s;

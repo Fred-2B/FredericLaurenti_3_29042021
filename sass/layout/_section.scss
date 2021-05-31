@@ -24,15 +24,18 @@
 
     @media screen and (min-width: 768px) {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        padding: 0 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width:1280px) {
+        margin: 0 20px;
     }
 
     .minicard {
         background-color: $silver;
         border-radius: 25px;
         font-family: $font-content;
-        margin: 25px 30px;
+        margin: 25px;
         @include shadow-card;
         cursor: pointer;
         animation-duration: 1s;
@@ -99,7 +102,7 @@
 
     @media screen and (min-width: 1024px) {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     @media (min-width:1280px) {
