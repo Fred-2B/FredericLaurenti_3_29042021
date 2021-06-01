@@ -23,7 +23,7 @@ sera développé en utilisantl’approche mobile-first. Pour cette raison, seule
 <p>● Le site doit être parfaitement compatible avec les dernières
 versions desktop de Chrome et Firefox.</p>
 
-<h5>Livrables attendus</h5>
+<h2>Livrables attendus</h2>
 
 <h5>Contenu des pages</h5>
 
