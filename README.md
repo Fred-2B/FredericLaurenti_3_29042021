@@ -8,14 +8,14 @@ est préparé à l’avance.
 Plus de perte de temps à consulter la carte!</p>
 
 Technologies
--
+
 <p>● Le développement devra se faire en CSS, sans JavaScript.</p>
 <p>● Aucun framework ne devra être utilisé, en revanche  l’utilisation de SASS serait un plus.</p>
 <p>● Aucun code CSS ne devra être appliqué via un attribut style
 dans une balise HTML.</p>
 
 Compatibilité
--
+
 <p>La cible étant les personnes connectées et pressées, le site
 sera développé en utilisantl’approche mobile-first. Pour cette raison, seules des maquettes mobiles seront réalisées. Sur tablette et desktop, le site devra s’adapter, mais ces supports n’étant pas prioritaires, leur mise en page est libre.</p>
 <p>● L’ensemble du site devra être responsive sur mobile, tablette et desktop.</p>
