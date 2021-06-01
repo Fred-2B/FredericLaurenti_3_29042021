@@ -566,7 +566,6 @@ body p {
   transition: -webkit-transform 0.25s ease-out;
   -o-transition: transform 0.25s ease-out;
   transition: transform 0.25s ease-out;
-  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
 }
 .section-restaurants .novelties-flag p:hover {
   -webkit-transform: scale(1.3);

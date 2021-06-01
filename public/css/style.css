@@ -47,17 +47,20 @@
   color: #818181;
 }
 .heart:hover .fa-heart-animated {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
 }
 
 .fa-heart-animated {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-48%);
   bottom: 3px;
   font-size: 0;
-  color: #9356dc;
+  background: linear-gradient(#FF79DA, #9356dc);
+  background: -webkit-linear-gradient(#FF79DA, #9356dc);
   transition: all 0.4s ease-in-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .order-button {
@@ -174,12 +177,12 @@
   }
 }
 @keyframes retard {
-  0% {
+  from {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
   }
-  100% {
+  to {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -453,10 +456,10 @@ body p {
 
 footer {
   background-color: #333232;
-  padding: 8px 0px 20px 10px;
+  padding: 8px 0 20px 10px;
 }
 footer h4 {
-  font-family: "Shrikhand";
+  font-family: "Shrikhand" serif;
   margin: 15px 0 5px 10px;
   color: #ffffff;
   font-weight: normal;
@@ -507,7 +510,7 @@ footer ul {
   padding: 0 20px;
 }
 .menu-header h2 {
-  font-family: "Shrikhand";
+  font-family: "Shrikhand" serif;
   margin: 35px 0;
 }
 
