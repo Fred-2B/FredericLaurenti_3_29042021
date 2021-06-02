@@ -72,9 +72,16 @@
     border-radius: 50px;
     color: $white;
     font-size: 20px;
-    padding: 15px;
+    padding: 15px 18px;
     width: 10rem;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-out;
+
+    &--home {
+        white-space: nowrap;
+        font-size: 16px;
+        padding: 18px 35px;
+        margin-top: 0;
+    }
 
     &:hover {
        @include btn-hover;

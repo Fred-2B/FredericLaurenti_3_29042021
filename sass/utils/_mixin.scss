@@ -17,5 +17,5 @@
 @mixin btn-hover {
     box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.3);
     background-blend-mode: lighten;
-    background-color: lighten($colour-primary, 10%);
+    background-color: lighten($colour-primary, 12%);
 }
