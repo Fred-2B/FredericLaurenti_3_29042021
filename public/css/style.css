@@ -74,14 +74,20 @@
   border-radius: 50px;
   color: #ffffff;
   font-size: 20px;
-  padding: 15px;
+  padding: 15px 18px;
   width: 10rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-out;
+}
+.order-button--home {
+  white-space: nowrap;
+  font-size: 16px;
+  padding: 18px 35px;
+  margin-top: 0;
 }
 .order-button:hover {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   background-blend-mode: lighten;
-  background-color: #ae80e5;
+  background-color: #b389e7;
 }
 
 .preloader {
@@ -103,7 +109,7 @@
   position: relative;
   align-items: center;
   top: 42%;
-  font-family: "Shrikhand", cursive;
+  font-family: "Shrikhand", serif;
   color: #c7bc5bf6;
   font-weight: normal;
   font-size: 40px;
@@ -239,7 +245,7 @@ body p {
 .explore-location {
   background-color: #f6f6f6;
   font-family: "Roboto", sans-serif;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   text-align: center;
 }
 .explore-location__title {
@@ -249,22 +255,9 @@ body p {
 .explore-location__subtitle {
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 55px;
+  margin-bottom: 35px;
   padding: 0 40px;
   color: #818181;
-}
-.explore-location__button {
-  background: linear-gradient(#FF79DA, #9356dc);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
-  border-radius: 50px;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 20px 25px;
-}
-.explore-location__button:hover {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  background-blend-mode: lighten;
-  background-color: #ae80e5;
 }
 
 .header-title {
@@ -286,7 +279,7 @@ body p {
   font-size: x-large;
 }
 .header-title .back-home:hover {
-  color: #9356dc;
+  color: #99e2d0;
   transform: scale(1.1);
 }
 
@@ -344,6 +337,9 @@ body p {
 .section-fonctionnalities .minicard__content:hover {
   background-color: #f1e6fc !important;
   border-radius: 25px;
+}
+.section-fonctionnalities .minicard__content:hover i {
+  color: #9356dc;
 }
 .section-fonctionnalities .minicard__content .circle {
   background-color: #9356dc;
